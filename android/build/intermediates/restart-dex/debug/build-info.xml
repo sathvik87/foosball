@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="23"
+    density="560dpi"
+    format="7"
+    timestamp="1345710751771678"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="295" />
+    <task
+        name="instant-run-dex"
+        duration="53" />
+    <task
+        name="instant-run-transform"
+        duration="106" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="1343543999113679" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/outputs/apk/android-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1343799316605620"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1345582282315296"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1345626850744438"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/builds/debug/1345626850744438/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1345663601532060"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/builds/debug/1345663601532060/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1345710751771678"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/sathvik/Development/Foosball/foosball/android/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
